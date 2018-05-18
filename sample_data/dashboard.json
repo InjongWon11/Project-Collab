@@ -1,0 +1,25 @@
+{
+	"name": "Daniel Chen",
+	"photo": "Path/To/Photo",
+	"program": "Computer Science",
+	"description":
+		"I'm a Third Year Computer Science Student, passionate in Web Development",
+	"skills": ["HTML", "CSS", "Javascript", "ReactJS", "Redux"],
+	"projects": [
+		{
+			"name": "Project-Collab",
+			"projectID": "a1D5bmsz",
+			"link": ""
+		},
+		{
+			"name": "CSSU website",
+			"projectID": "12ons13sz",
+			"link": "cssu.ca"
+		},
+		{
+			"name": "TicketMapper",
+			"projectID": "",
+			"link": "https://github.com/F-Ting/TicketMapper"
+		}
+	]
+}

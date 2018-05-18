@@ -1,8 +1,4 @@
 <style>
-body {
-	margin: 0;
-}
-
 /*
 menu bar styling
 */
@@ -13,7 +9,7 @@ menu bar styling
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu a {
+router-link {
 	float: left;
 	font-size: 16px;
 	color: white;
@@ -55,7 +51,7 @@ dropdown content styling
 	z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content router-link {
 	float: none;
 	color: black;
 	padding: 12px 16px;
@@ -75,19 +71,22 @@ dropdown content styling
 
 <template>
 
-<div id="app">
-    <Menu/>
-    <router-view/>
+<div class="menu">
+    <router-link to="/">Dashboard</router-link>
+    <router-link to="/Search">Search</router-link>
+	<router-link to="/Create">Create Project</router-link>
+	<router-link to="/Settings">Settings</router-link>
+
 </div>
 
 </template>
 
 <script>
-import Menu from "./Menu.vue";
 export default {
-	name: "App",
-	components: {
-		Menu
+	name: "Menu",
+	methods: {},
+	data() {
+		return {};
 	}
 };
 </script>

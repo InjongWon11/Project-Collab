@@ -1,0 +1,34 @@
+{
+	"name": "Project-Collab",
+	"description":
+		"Project-Collab is a web application that allows Computer Science folks to find projects that they're interested in and collaborate with their peers. The aim for this project is to enhance collaboration and community building within the Computer Science Community.",
+	"url": "https://github.com/F-Ting/Project-Collab",
+	"skills_required": ["HTML5", "CSS3", "Javascript", "Git"],
+	"skills_prefered": ["VueJS", "NodeJS", "MongoDB"],
+	"team": [
+		{
+			"name": "Brian Won",
+			"userID": "ais91n1dkskb",
+			"type": "member",
+			"photo": "photos/path/to/photo"
+		},
+		{
+			"name": "Daniel Chen",
+			"type": "admin",
+			"userID": "aiasdfg12skb",
+			"photo": "photos/path/to/photo"
+		},
+		{
+			"name": "Ryan Lee",
+			"type": "member",
+			"userID": "ais911251dkskb",
+			"photo": "IF EMPTY USE DEFAULT PLACEHOLDER"
+		},
+		{
+			"name": "Jerry Zhang",
+			"type": "member",
+			"userID": "gis91hd1skb",
+			"photo": "photos/path/to/photo"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"results": [
+		{
+			"name": "Project-Collab",
+			"projectID": "a1D5bmsz",
+			"Tags": [
+				"Web Development",
+				"Web",
+				"Mobile",
+				"CSSU",
+				"Collaboration"
+			],
+			"description":
+				"Project-Collab is a web application that allows Computer Science folks to find projects that they're interested in and collaborate with their peers. The aim for this project is to enhance collaboration and community building within the Computer Science Community.",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		},
+		{
+			"name": "SnapChat",
+			"projectID": "b1D54msz",
+			"Tags": ["Mobile", "Social Media"],
+			"description":
+				"Snapchat is a multimedia messaging app popular in North America and Europe created by Evan Spiegel, Bobby Murphy, and Reggie Brown, former students at Stanford University, and developed by Snap Inc., originally Snapchat Inc",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		},
+		{
+			"name": "Uber",
+			"projectID": "Lyft",
+			"Tags": ["Transportation", "Mobile"],
+			"description":
+				"Uber Technologies Inc. is a peer-to-peer ridesharing, food delivery, and transportation network company headquartered in San Francisco, California, with operations in 633 cities worldwide.",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		},
+		{
+			"name": "Google",
+			"projectID": "g27xgq61b",
+			"Tags": ["Search Engine", "Web", "Mobile"],
+			"description":
+				"Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		},
+		{
+			"name": "IBM",
+			"projectID": "0j5ng83by",
+			"Tags": ["Web", "Mobile"],
+			"description":
+				"The International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		},
+		{
+			"name": "Facebook",
+			"projectID": "ecs12g3f1a",
+			"Tags": [],
+			"description":
+				"Facebook is an American online social media and social networking service company based in Menlo Park, California. ",
+			"skills_required": ["HTML5", "CSS3", "Javascript", "Git"]
+		}
+	]
+}
