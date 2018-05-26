@@ -4,13 +4,15 @@ Project-Collab is a web application that allows Computer Science folks to find p
 
 #### What's Provided
 
-Project folder created with the Vue.js CLI. The container app is in `src/App.vue`, files for each view are in `src/views` along with all the components for the specific view. The main view component will the be same as the folder name it is in.
+The root directory is setup with Node.js with Express Framework and MongoDB with Mongoose Framework, Everything except for the client folder is server related code.
 
-#### Getting Data
+The Client folder is created with the Vue.js CLI. The container app is in `src/App.vue`, files for each view are in `src/views` along with all the components for the specific view. The main view component will the be same as the folder name it is in.
 
-In the `sample_data` folder, you will see `.json` files with names corresponding to a view name. These data are imported into the corresponding views for you to make use of. Currently no backend has been setup, you will make GET and POST requests later on.
+## Getting Started
 
-## Setup
+For programmers new to web development, checkout the issues tab and filter for issues that are "good first issue"
+
+#### Setup
 
 Please ensure you have the Node Package Manager(npm). You could download [here](https://www.npmjs.com/get-npm)
 
@@ -22,6 +24,24 @@ npm run dev
 ```
 
 Then checkout localhost:5000 on your browser
+
+This is the current build of your local development, only changes to server code will be detected here. Any changes to client code will not be detected here. Thus this is meant for testing server side code.
+
+#### local development
+
+navigate into your client folder and run:
+
+```
+npm run serve
+```
+
+Then checkout localhost:8080 on your browser
+
+Changes to client code will be reflected onto the browser, so use this to test client side code.
+
+#### Getting Data
+
+In the `sample_data` folder, you will see `.json` files with names corresponding to a view name. These data are imported into the corresponding views for you to make use of. Currently no backend has been setup, you will make GET and POST requests later on.
 
 ## Code Style and Tools
 
@@ -67,19 +87,6 @@ To begin, feel free to make a pull request to the `feature_test` branch for any 
 Currently, the main branch you should be aware of is the `Development` Branch, which will be main branch to make PRs.
 `Development` Branch will be the main branch for any pull request regarding new features
 
-## Task (Functionality focused, Styling can come later)
-
-To create a one-page Vue.js app that is an simplified project posting website.
-The app's default page wills show a Menu bar along with the dashboard of a user.
-In all, there are 5 views, 4 of which can directly be navigated to from the Menu Bar:
-
-#### The Menu Bar consists of 4 navigation:
-
-1.  Dashboard (Contains all information of user)
-2.  Search (Allow user to search for projects)
-3.  Create Project (Allow user to create project)
-4.  Settings (Allow user to update profile or delete account)
-
 ## What's Next
 
-I will setup mongoDB instance and populate with sample data
+I will populate the MongoDB with sample data
