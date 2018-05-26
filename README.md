@@ -17,9 +17,11 @@ Please ensure you have the Node Package Manager(npm). You could download [here](
 After forking the repo and cloning onto your local machine, run the following to checkout the skeletal template
 
 ```
-npm install
-npm run serve
+npm run update
+npm run dev
 ```
+
+Then checkout localhost:5000 on your browser
 
 ## Code Style and Tools
 
@@ -30,7 +32,7 @@ Use tabs and set 4 spaces per tab.
 USE CAPS for constants  
 use_underscore_case for javascript variables  
 use-dash-case for CSS classes  
-use **VERBS** for function names  
+use **VERBS** for function names
 
 #### Prettier
 
@@ -77,37 +79,6 @@ In all, there are 5 views, 4 of which can directly be navigated to from the Menu
 2.  Search (Allow user to search for projects)
 3.  Create Project (Allow user to create project)
 4.  Settings (Allow user to update profile or delete account)
-
-#### The Dashboard view consists of 3 components:
-
-1.  A photo of the user with a short description underneath.
-2.  A list of skills, courses, and experiences that the user currently has.
-3.  A list of project names that the user is currently working on within the platform, upon clicking the project name, the user will be navigated to the Project view displaying the corresponding project info.
-
-#### The Search view consists of 3 components:
-
-1.  A search bar that allows user to search for name of project or keywords within a project
-2.  A list of popular skills checkbox that helps user to filter through project list
-3.  A Table that displays projects based on current search or filter options. upon clicking the project name, the user will be navigated to the Project view displaying the corresponding project info.
-
-#### The Project view consists of 4 components:
-
-1.  Description of project, commitment level(e.g hour/week), contact to get involved, and optional link to public git repository.
-2.  List of current group members and admin for the project.
-3.  List of desired skills, software tools and programming languages used.
-4.  (For admin only), configure projects, add/remove members, change project info.
-
-#### The Create project view consists of 4 components:
-
-1.  Input options of Project name, description
-2.  Search bar to add initial collaborators
-3.  List of skills required for the project
-4.  Desired commitment and skills from interested members (Optional)
-
-#### The Settings view consists of 2 components:
-
-1.  Change/Update user info
-2.  Deleting the account
 
 ## What's Next
 
