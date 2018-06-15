@@ -6,10 +6,8 @@
         "server": "nodemon server.js",
         "dev":
             "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" ",
-        "update-client": "cd client && npm install",
-        "update-server": "npm install",
         "update":
-            "concurrently --kill-others-on-fail \"yarn update-client\" \"yarn update-server\""
+            "npm install && cd client && npm install"
     },
     "dependencies": {
         "axios": "^0.18.0",
